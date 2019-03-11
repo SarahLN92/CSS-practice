@@ -24,7 +24,6 @@
     &__shape{
         width: 15rem;
         height: 15rem;
-        background-color: orangered;
         float: left;
         shape-outside: circle(50% at 50% 50%); //in order for this to work the element must be floated and has explicit dimensions
         -webkit-shape-outside: circle(50% at 50% 50%);
@@ -34,8 +33,7 @@
         position: relative;
 
         @include respond(phone){
-            transform: translateX(-3rem) skew(0);
-            
+            transform: translateX(-3rem) skew(0);   
         }
     }
 
